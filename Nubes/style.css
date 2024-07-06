@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.Animation {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    position: relative;
+}
+
+.botones {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+button {
+    background-color: #7fffd4;
+    text-decoration: none;
+    width: 150px; 
+    height: 50px;
+    font-size: 16px; 
+    border: 1px solid black;
+    border-radius: 15px; 
+}
+
+button:hover {
+    color: crimson;
+    background-color: #5ba18a;
+    cursor: pointer;
+}
+
+.sky {
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.caja1 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 10vh;
+    animation: movCloudClare 20s linear infinite; 
+}
+
+.caja2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 50vh;
+    width: 100%;
+    animation: movCloudOscure 40s linear infinite;
+}
+
+@keyframes movCloudClare {
+    0% {
+        transform: translateX(-20%); 
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes movCloudOscure {
+    0% {
+        transform: translateX(-20%); 
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
