@@ -35,89 +35,100 @@ body {
 @keyframes identifier {
     0% { 
       background-image: url('images/walker_frames-1.png');
-      top: 35vh;
-      left: 100vw; 
+      top: 2vh;
+      left: 100vw;
+      border-bottom: 30px solid black; 
     }
     5% {
       left: 95vw;
     }
     10% { 
       background-image: url('images/walker_frames-2.png');
-      top: 35vh; 
+      top: 2vh; 
       left: 90vw;
+      border-bottom: 30px solid black;    
     }
     15% {
       left: 85vw;
     }
     20% { 
       background-image: url('images/walker_frames-3.png'); 
-      top: 35vh;
+      top: 2vh;
       left: 80vw;
+      border-bottom: 30px solid black;    
     }
     25% {
       left: 75vw;
     }
     30% { 
       background-image: url('images/walker_frames-4.png');
-      top: 35vh;
+      top: 2vh;
       left: 70vw; 
+      border-bottom: 30px solid black;
     }
     35% {
       left: 65vw;
     }
     40% { 
       background-image: url('images/walker_frames-5.png');
-      top: 35vh;
+      top: 2vh;
       left: 60vw;
-     }
+
+      border-bottom: 30px solid black;    }
     45% {
       left: 55vw;
     }
     50% { 
       background-image: url('images/walker_frames-6.png');
-      top: 35vh;
+      top: 2vh;
       left: 50vw;
-     }
+
+      border-bottom: 30px solid black;    }
     55% {
       left: 45vw;
     }
     60% { 
       background-image: url('images/walker_frames-7.png'); 
-      top: 35vh;
+      top: 2vh;
       left: 40vw;
-    }
+
+      border-bottom: 30px solid black;    }
     65% {
       left: 35vw;
     }
     70% { 
       background-image: url('images/walker_frames-8.png'); 
-      top: 35vh;
+      top: 2vh;
       left: 30vw;
-    }
+
+      border-bottom: 30px solid black;    }
     75% {
       left: 25vw;
     }
     80% { 
       background-image: url('images/walker_frames-9.png'); 
-      top: 35vh;
+      top: 2vh;
       left: 20vw;
-    }
+
+      border-bottom: 30px solid black;    }
     85% {
       left: 15vw;
     }
     90% { 
       background-image: url('images/walker_frames-10.png');
-      top: 35vh;
+      top: 2vh;
       left: 10vw;
-     }
+
+      border-bottom: 30px solid black;    }
     95% {
       left: 5vw;
     }
     100% { 
       background-image: url('images/walker_frames-1.png');
-      top: 35vh;
+      top: 2vh;
       left: 0vw; 
-      margin-left: 0;
+
+      border-bottom: 30px solid black;      margin-left: 0;
     } 
   }
 
